@@ -1,0 +1,9 @@
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlServerHomework\bin\Debug\SqlServerHomework.dacpac
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlServerHomework\bin\Debug\SqlServerHomework.dll
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlServerHomework\bin\Debug\SqlServerHomework.pdb
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlServerHomework\obj\Debug\Model.xml
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlServerHomework\obj\Debug\refactor.xml
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlServerHomework\obj\Debug\postdeploy.sql
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlServerHomework\obj\Debug\predeploy.sql
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlServerHomework\obj\Debug\SqlServerHomework.dll
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlServerHomework\obj\Debug\SqlServerHomework.pdb

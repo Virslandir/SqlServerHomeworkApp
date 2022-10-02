@@ -1,0 +1,12 @@
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\bin\Debug\net5.0\SqlDataAccessLibrary.deps.json
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\bin\Debug\net5.0\SqlDataAccessLibrary.dll
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\bin\Debug\net5.0\ref\SqlDataAccessLibrary.dll
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\bin\Debug\net5.0\SqlDataAccessLibrary.pdb
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\obj\Debug\net5.0\SqlDataAccessLibrary.csproj.AssemblyReference.cache
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\obj\Debug\net5.0\SqlDataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\obj\Debug\net5.0\SqlDataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\obj\Debug\net5.0\SqlDataAccessLibrary.AssemblyInfo.cs
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\obj\Debug\net5.0\SqlDataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\obj\Debug\net5.0\SqlDataAccessLibrary.dll
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\obj\Debug\net5.0\ref\SqlDataAccessLibrary.dll
+C:\Users\sspir\source\repos\SqlServerHomeworkApp\SqlDataAccessLibrary\obj\Debug\net5.0\SqlDataAccessLibrary.pdb
