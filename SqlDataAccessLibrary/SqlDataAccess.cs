@@ -21,7 +21,7 @@ namespace SqlDataAccessLibrary
             }
         }
 
-        public static void SaveData<T>(string sqlStatement, T parameters, string connectionString)
+        public void SaveData<T>(string sqlStatement, T parameters, string connectionString)
         {
             using (IDbConnection connection = new SqlConnection(connectionString))
             {

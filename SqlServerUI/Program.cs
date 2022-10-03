@@ -14,9 +14,35 @@ namespace SqlServerUI
         {
             SqlCrud sql = new SqlCrud(GetConnectionString());
 
-            var people = GetAllPeople(sql);
+            /*
+            var allPeople = GetAllPeople(sql);
 
-            Console.ReadLine(); 
+            var hiredPeople = GetPeopleByEmployerName(sql, "Dardun S");
+
+            var employers = GetPersonsEmployers(sql, "Dunja", "Milosavljevic");
+            */
+
+            FullPersonInfoModel mihic = new FullPersonInfoModel {
+                BasicInfo = new PersonModel { FirstName = "Milan", LastName = "Mihic" }
+                };
+
+            mihic.Addresses.Add(new AddressModel
+            {
+                Street = "Bezanijska 3",
+                City = "Novi Beograd",
+                Country = "Serbia",
+                ZipCode = "11000"
+            });
+
+            mihic.Employers.Add(new EmployerModel
+            {
+                CompanyName = "Strabag d.o.o."
+            });
+            
+
+            CreatePerson(sql, mihic);
+
+            Console.ReadLine();
         }
 
         private static string GetConnectionString(string connectionStringName = "Default")
@@ -36,6 +62,21 @@ namespace SqlServerUI
         {
             return sql.ReadAllPeople();
             
+        }
+
+        private static List<PersonModel> GetPeopleByEmployerName(SqlCrud sql, string employerName)
+        {
+            return sql.ReadContactsByEmployer(employerName);
+        }
+
+        private static List<EmployerModel> GetPersonsEmployers(SqlCrud sql, string firstName, string lastName)
+        {
+            return sql.ReadEmployersByFullName(firstName, lastName);
+        }
+
+        private static void CreatePerson(SqlCrud sql, FullPersonInfoModel person)
+        {
+            sql.CreateContact(person);
         }
     
     }
